@@ -1,4 +1,1 @@
-rednet.open("back")
-while true do
-    print(rednet.receive())
-end
+peripheral.find("modem",rednet.open)::m::print(rednet.receive())goto m
