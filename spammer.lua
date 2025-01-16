@@ -10,4 +10,5 @@ for i = 1, count do
     rednet.broadcast("   s   p    a  a m m m  m m m")
     rednet.broadcast("sss    p    a  a m m m  m m m")
     rednet.broadcast("----------------------")
+    sleep()
 end
